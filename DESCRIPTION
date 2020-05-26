@@ -1,11 +1,29 @@
 Package: BRDT
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Binomial Reliability Demonstration Tests (BRDT)
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Authors@R: 
+    c(person("Suiyao",
+             "Chen",
+             role = c("aut", "cre"),
+             email = "csycsy12377@gmail.com"))
+Maintainer: Suiyao Chen <csycsy12377@gmail.com>
+Description: This is a implementation of design methods for binomial reliability demonstration tests (BRDT) with failure count data.
+Depends: R (>= 3.3.0)
+License: GPL-3
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 7.1.0
+Imports:
+    gtools,
+    stats,
+    reshape2,
+    dplyr,
+    utils
+Suggests:
+    tidyverse,
+    knitr,
+    rmarkdown
+URL:https://github.com/ericchen12377/BRDT
+BugReports: https://github.com/ericchen12377/BRDT/issues
+VignetteBuilder: knitr
