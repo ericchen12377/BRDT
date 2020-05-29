@@ -8,7 +8,8 @@ Authors@R:
              role = c("aut", "cre"),
              email = "csycsy12377@gmail.com"))
 Maintainer: Suiyao Chen <csycsy12377@gmail.com>
-Description: This is a implementation of design methods for binomial reliability demonstration tests (BRDT) with failure count data.
+Description: This is a implementation of design methods for binomial reliability demonstration tests (BRDT) with failure count data. 
+    The acceptanace decision uncertainty of BRDT has been quantified and the impacts of the uncertainty on related reliability assurance activities are evaluated. 
 Depends: R (>= 3.3.0)
 License: GPL-3
 Encoding: UTF-8

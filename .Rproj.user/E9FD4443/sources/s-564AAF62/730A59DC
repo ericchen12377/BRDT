@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1590783603068.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "730A59DC",
+    "lastKnownWriteTime" : 1590783676,
+    "last_content_update" : 1590783676669,
+    "path" : "G:/My Drive/Career_Development/Coding_Profiles/Github_Public/Rpackages/BRDT/R/bcost_WS.R",
+    "project_path" : "R/bcost_WS.R",
+    "properties" : {
+        "cursorPosition" : "23,44",
+        "scrollLine" : "9"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

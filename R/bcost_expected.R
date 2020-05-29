@@ -1,6 +1,6 @@
-#' @title Cost Function for Expected Overall Costs in Binomial RDT Design
+#' @title Expected Overall Costs in Binomial RDT Design
 #'
-#' @description Define the cost function of expected overall cost including the RDT cost, expected reliabiltiy growth cost and expected warranty services cost (for binomial RDT design).
+#' @description Define the cost function of expected overall cost including the RDT cost, expected reliabiltiy growth (RG) cost and expected warranty services (WS) cost (for binomial RDT design).
 #'
 #' @param Cf Fixed costs of RDT
 #' @param Cv Variable unit costs of RDT
@@ -12,8 +12,9 @@
 #' @param pi Failure probability
 #' @return Overall expected cost
 #' @examples
-#' pi <- pi_MCSim_beta(M = 5000, seed = 10, a = 1, b = 1)
+#' pi <- pi_MCSim_beta(M = 1000, seed = 10, a = 1, b = 1)
 #' bcost_expected(Cf = 10, Cv = 10, n = 10, G = 100000, Cw = 10, N = 1, c = 1, pi = pi)
+#' @family Cost functions defined for RDT, RG, WS and overall expected cost.
 #' @seealso \code{\link{bcost_RDT}}, \code{\link{bcost_RG}}, \code{\link{bcost_WS}}
 #' @export
 

@@ -15,10 +15,8 @@
 #' }
 #' @export
 #' @family Binomial RDT functions
-#' @seealso \code{\link{bcore}} for getting the core probability of passting the test;
-#' \code{\link{bconsumerrisk}} for getting the consumer's risk;
-#' \code{\link{bIndicator}} for getting the binary indicator;
-
+#' @seealso \code{\link{boptimal_cost}} for getting the optial test plan with minimum overall cost;
+#' \code{\link{bdata_generator}} for generating optimal test plans dataset;
 
 boptimal_n <- function(c, pi, R, thres_CR){
   n <- c + 1

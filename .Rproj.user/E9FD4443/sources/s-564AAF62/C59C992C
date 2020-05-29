@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1590777662423.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "C59C992C",
+    "lastKnownWriteTime" : 1590791824,
+    "last_content_update" : 1590791871927,
+    "path" : "G:/My Drive/Career_Development/Coding_Profiles/Github_Public/Rpackages/BRDT/R/bdata_generator.R",
+    "project_path" : "R/bdata_generator.R",
+    "properties" : {
+        "cursorPosition" : "105,26",
+        "scrollLine" : "103"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -1,4 +1,4 @@
-#' @title Cost Function for Reliability Growth
+#' @title Reliability Growth Cost
 #'
 #' @description Define the cost function of reliabiltiy growth (RG) after the decision of the test (for binomial RDT).
 #'
@@ -6,6 +6,7 @@
 #' @return Reliability growth cost
 #' @examples
 #' bcost_RG(G = 100000);
+#' @family Cost functions defined for RDT, RG, WS and overall expected cost.
 #' @seealso \code{\link{bcost_RDT}}, \code{\link{bcost_WS}}, \code{\link{bcost_expected}}
 #' @export
 

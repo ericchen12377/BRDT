@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1590788271760.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "956A7606",
+    "lastKnownWriteTime" : 1590500475,
+    "last_content_update" : 1590500475,
+    "path" : "G:/My Drive/Career_Development/Coding_Profiles/Github_Public/Rpackages/BRDT/R/bconsumerrisk.R",
+    "project_path" : "R/bconsumerrisk.R",
+    "properties" : {
+        "cursorPosition" : "13,0",
+        "scrollLine" : "6"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

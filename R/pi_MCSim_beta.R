@@ -11,8 +11,7 @@
 #' pi <- pi_MCSim_beta(M = 1000, seed = 10, a = 1, b = 1)
 #' @export
 #' @importFrom stats rbeta
-#' @family Prior distribution generation functions
-#' @seealso \code{\link{pi_MCSim_dirichlet}}
+
 
 pi_MCSim_beta <- function(M, seed, a, b){
   #requireNamespace("stats")
