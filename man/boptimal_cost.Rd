@@ -24,8 +24,6 @@ boptimal_cost(Cf, Cv, G, Cw, N, Rvec, cvec, pi, thres_CR)
 \item{pi}{Failure probability}
 
 \item{thres_CR}{Threshold (acceptable level) of consumer's risk}
-
-\item{nvec}{Vector of test sample size}
 }
 \value{
 Vector of optimal test plan parameters, acceptance probabiltiy and cost

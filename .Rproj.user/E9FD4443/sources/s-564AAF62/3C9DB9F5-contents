@@ -39,7 +39,7 @@ b_n <- boptimal_n(c = c, pi = pi, R = R, thres_CR = thres_CR)
 print(b_n)
 ```
 
-### Considering Related Costs
+### Getting All Related Costs
 ```{r}
 #RDT cost
 Cf <- 0
@@ -67,7 +67,7 @@ Overall_cost <- bcost_expected(Cf = Cf, Cv = Cv, n = n_optimal, G = G, Cw = Cw, 
 print(Overall_cost)
 ```
 
-### Optimal Test Plans with Minimum Costs
+### Optimal Test Plans with Minimum Overall Costs
 ```{r}
 #Vectors to get combinations of different R and c
 Rvec <- seq(0.8, 0.85, 0.01)
@@ -78,7 +78,7 @@ Plan_optimal_cost <- boptimal_cost(Cf = 10, Cv = 10, G = 100, Cw = 10, N = 100, 
 print(Plan_optimal_cost)
 ```
 
-###Generate Test Plans Dataset
+### Generate Test Plans Dataset
 ```{r}
 nvec <- seq(0, 10, 1)
 Rvec <- seq(0.8, 0.85, 0.01)

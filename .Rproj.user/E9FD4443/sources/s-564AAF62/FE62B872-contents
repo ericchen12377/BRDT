@@ -4,7 +4,6 @@
 #'
 #' @param Cf Fixed costs of RDT
 #' @param Cv Variable unit costs of RDT
-#' @param nvec Vector of test sample size
 #' @param G Reliabilty growth cost
 #' @param Cw Average cost per warranty claim
 #' @param N Sales volume
