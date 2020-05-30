@@ -20,10 +20,4 @@ bcost_RG(G = 100000);
 }
 \seealso{
 \code{\link{bcost_RDT}}, \code{\link{bcost_WS}}, \code{\link{bcost_expected}}
-
-Other Cost functions defined for RDT, RG, WS and overall expected cost.: 
-\code{\link{bcost_RDT}()},
-\code{\link{bcost_WS}()},
-\code{\link{bcost_expected}()}
 }
-\concept{Cost functions defined for RDT, RG, WS and overall expected cost.}

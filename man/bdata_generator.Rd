@@ -67,5 +67,5 @@ par = c('n', 'R', 'c', 'CR', 'AP'), option = c("optimal"), thres_CR = 0.05)
 }
 \seealso{
 \code{\link{boptimal_cost}} for getting the optial test plan with minimum overall cost;
-\code{\link{bdata_generator}} for generating optimal test plans dataset;
+\code{\link{boptimal_n}} for getting the optial test sample size;
 }

@@ -27,7 +27,7 @@ Define the cost function of warranty services (WS) after the decision of the tes
 }
 \examples{
 #the n value can be the minimum test sample size obtained from \code{\link{boptimal_n}}.
-n_optimal = 20
+n_optimal <- 20
 pi <- pi_MCSim_beta(M = 1000, seed = 10, a = 1, b = 1)
 WScost <- bcost_WS(Cw = 10, N = 1, n = n_optimal, c = 1, pi = pi);
 print(WScost[1]) #expected failure probability
@@ -35,10 +35,4 @@ print(WScost[2]) #expected warranty services cost
 }
 \seealso{
 \code{\link{bcost_RDT}}, \code{\link{bcost_RG}}, \code{\link{bcost_expected}}
-
-Other Cost functions defined for RDT, RG, WS and overall expected cost.: 
-\code{\link{bcost_RDT}()},
-\code{\link{bcost_RG}()},
-\code{\link{bcost_expected}()}
 }
-\concept{Cost functions defined for RDT, RG, WS and overall expected cost.}

@@ -35,10 +35,4 @@ bcost_expected(Cf = 10, Cv = 10, n = 10, G = 100000, Cw = 10, N = 1, c = 1, pi =
 }
 \seealso{
 \code{\link{bcost_RDT}}, \code{\link{bcost_RG}}, \code{\link{bcost_WS}}
-
-Other Cost functions defined for RDT, RG, WS and overall expected cost.: 
-\code{\link{bcost_RDT}()},
-\code{\link{bcost_RG}()},
-\code{\link{bcost_WS}()}
 }
-\concept{Cost functions defined for RDT, RG, WS and overall expected cost.}

@@ -12,7 +12,7 @@
 #' The second value is the expected warranty services cost.
 #' @examples
 #' #the n value can be the minimum test sample size obtained from \code{\link{boptimal_n}}.
-#' n_optimal <- 20
+#' n_optimal = 20
 #' pi <- pi_MCSim_beta(M = 1000, seed = 10, a = 1, b = 1)
 #' WScost <- bcost_WS(Cw = 10, N = 1, n = n_optimal, c = 1, pi = pi);
 #' print(WScost[1]) #expected failure probability

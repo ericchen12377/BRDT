@@ -25,9 +25,4 @@ bIndicator(pi = 0.2, R = 0.9)
 \code{\link{bcore}} for getting the core probability of passting the test;
 \code{\link{boptimal_n}} for getting the optimal test sample size;
 \code{\link{bconsumerrisk}} for getting the consumer's risk;
-
-Other Binomial RDT functions: 
-\code{\link{bconsumerrisk}()},
-\code{\link{bcore}()}
 }
-\concept{Binomial RDT functions}

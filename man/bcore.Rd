@@ -26,9 +26,4 @@ bcore(n = 10, c = 2, pi = 0.2)
 \code{\link{boptimal_n}} for getting the optimal test sample size;
 \code{\link{bconsumerrisk}} for getting the consumer's risk;
 \code{\link{bIndicator}} for getting the binary indicator;
-
-Other Binomial RDT functions: 
-\code{\link{bIndicator}()},
-\code{\link{bconsumerrisk}()}
 }
-\concept{Binomial RDT functions}
