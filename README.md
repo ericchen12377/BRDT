@@ -1,11 +1,13 @@
 # BRDT (Binomial Reliability Demonstration Tests)
 
 ## Description
-This package provides the Bayesian methods to get the optimal test sample size in binomial RDT design .
-* Binomial RDT (b_.R): This is the conventional test design using failure count data and assuming binomial failure distributions over the testing period.
+This package provides the Bayesian methods to get the optimal test sample size in binomial RDT design.
+* Conventional Binomial RDT: the package implements the conventional test design using failure count data and assuming binomial failure distributions over the testing period. Binomial RDT can also be referred to as binomial test or attribute test.
+* Binomial RDT with Acceptance Uncertainty: the package implements the design methods to quantify the BRDT acceptance decision uncertainty and evaluate the cost impacts on related reliability assurance activities. Optimal test plans with minimum overall costs can be obtained.
+* Data generator: the package implements a data generator to generate the test plans dataset with specific design settings.
 
 ## Reference
-This is the R package implementation for the design methods of binomial reliabiltiy demonstration tests (BRDTs) with failure count data. The original work is from one of the research projects listed on [Suiyao Chen's Homepage](https://sites.google.com/mail.usf.edu/suiyaochen-professional/publication?authuser=0). 
+This is the R package implementation for the design methods of binomial reliabiltiy demonstration tests (BRDTs) with failure count data. The acceptanace decision uncertainty of BRDT has been quantified and the impacts of the uncertainty on related reliability assurance activities such as reliability growth and warranty services are evaluated. The original work is from one of the research projects listed on [Suiyao Chen's Homepage](https://sites.google.com/mail.usf.edu/suiyaochen-professional/publication?authuser=0). 
 
 ## Installation
 To install from Github:
