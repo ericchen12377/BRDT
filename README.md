@@ -127,7 +127,6 @@ head(data_optimal)
 #> 5             0.05591351         3.365004     9571.542
 #> 6             0.05026193         2.704541     9654.615
 ```
-```
 
 ## [Updates](NEWS.md)
 * Version logs are provided.
