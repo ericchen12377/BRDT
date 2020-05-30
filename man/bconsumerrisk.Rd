@@ -32,7 +32,6 @@ bconsumerrisk(n = 10, c = 2, pi = pi, R = 0.8);
 
 Other Binomial RDT functions: 
 \code{\link{bIndicator}()},
-\code{\link{bcore}()},
-\code{\link{boptimal_n}()}
+\code{\link{bcore}()}
 }
 \concept{Binomial RDT functions}

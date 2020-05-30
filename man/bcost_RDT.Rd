@@ -20,7 +20,9 @@ Binomial RDT cost
 Define the cost function of RDT, mainly determined by the test sample size (for binomial RDT)
 }
 \examples{
-bcost_RDT(Cf = 0, Cv = 10, n = 10); # the value of n should be from the output of \code{\link{boptimal_n}}
+#the n value can be the minimum test sample size obtained from \code{\link{boptimal_n}}.
+n_optimal = 20
+bcost_RDT(Cf = 0, Cv = 10, n = n_optimal);
 }
 \seealso{
 \code{\link{bcost_RG}}, \code{\link{bcost_WS}}, \code{\link{bcost_expected}}

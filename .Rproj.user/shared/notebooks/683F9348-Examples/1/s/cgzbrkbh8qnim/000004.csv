@@ -1,0 +1,4 @@
+"0",""
+"0","#Get data with optimal test sample size and minimum overall costs from all combinations of c, R"
+"0","data_optimal <- bdata_generator(Cf = 10, Cv = 10, nvec = nvec, G = 10000, Cw = 10, N = 100, Rvec = Rvec, cvec = cvec, pi = pi,par = all(), option = c(""optimal""), thres_CR = 0.05)"
+"0","head(data_optimal)"

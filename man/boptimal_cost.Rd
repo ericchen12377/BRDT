@@ -4,14 +4,12 @@
 \alias{boptimal_cost}
 \title{Optimal Test Plans with Minimum Expected Overall Costs in Binomial RDT Design}
 \usage{
-boptimal_cost(Cf, Cv, nvec, G, Cw, N, Rvec, cvec, pi, thres_CR)
+boptimal_cost(Cf, Cv, G, Cw, N, Rvec, cvec, pi, thres_CR)
 }
 \arguments{
 \item{Cf}{Fixed costs of RDT}
 
 \item{Cv}{Variable unit costs of RDT}
-
-\item{nvec}{Vector of test sample size}
 
 \item{G}{Reliabilty growth cost}
 
@@ -26,6 +24,8 @@ boptimal_cost(Cf, Cv, nvec, G, Cw, N, Rvec, cvec, pi, thres_CR)
 \item{pi}{Failure probability}
 
 \item{thres_CR}{Threshold (acceptable level) of consumer's risk}
+
+\item{nvec}{Vector of test sample size}
 }
 \value{
 Vector of optimal test plan parameters, acceptance probabiltiy and cost
@@ -35,11 +35,14 @@ Define the optimal function to find the optimal test plans with minimum expected
 }
 \examples{
 \donttest{
-nvec <- seq(0, 10, 1)
 Rvec <- seq(0.8, 0.85, 0.01)
 cvec <- seq(0, 2, 1)
 pi <- pi_MCSim_beta(M = 5000, seed = 10, a = 1, b = 1)
-boptimal_cost(Cf = 10, Cv = 10, nvec = nvec, G = 100, Cw = 10,
+boptimal_cost(Cf = 10, Cv = 10, G = 100, Cw = 10,
 N = 100, Rvec = Rvec, cvec = cvec, pi = pi, thres_CR = 0.5);
 }
+}
+\seealso{
+\code{\link{boptimal_n}} for getting the optial test sample size;
+\code{\link{bdata_generator}} for generating optimal test plans dataset;
 }

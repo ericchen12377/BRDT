@@ -14,8 +14,8 @@
 #' boptimal_n(c = 2, pi = pi, R = 0.8, thres_CR = 0.05)
 #' }
 #' @export
-#' @family Binomial RDT functions
-#' @seealso \code{\link{boptimal_cost}} for getting the optial test plan with minimum overall cost;
+#' @seealso
+#' \code{\link{boptimal_cost}} for getting the optial test plan with minimum overall cost;
 #' \code{\link{bdata_generator}} for generating optimal test plans dataset;
 
 boptimal_n <- function(c, pi, R, thres_CR){

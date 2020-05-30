@@ -1,0 +1,8 @@
+"0","nvec <- seq(0, 10, 1)"
+"0","Rvec <- seq(0.8, 0.85, 0.01)"
+"0","cvec <- seq(0, 2, 1)"
+"0","pi <- pi_MCSim_beta(M = 5000, seed = 10, a = 1, b = 1)"
+"0",""
+"0","#Get data from all combinations of n, c, R"
+"0","data_all <- bdata_generator(Cf = 10, Cv = 10, nvec = nvec, G = 10000, Cw = 10, N = 100, Rvec = Rvec, cvec = cvec, pi = pi,par = all(), option = c(""all""), thres_CR = 0.05)"
+"0","head(data_all)"

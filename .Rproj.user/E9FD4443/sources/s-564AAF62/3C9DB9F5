@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1590801054419.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "3C9DB9F5",
+    "lastKnownWriteTime" : 1590802718,
+    "last_content_update" : 1590802718929,
+    "path" : "G:/My Drive/Career_Development/Coding_Profiles/Github_Public/Rpackages/BRDT/vignettes/Examples.Rmd",
+    "project_path" : "vignettes/Examples.Rmd",
+    "properties" : {
+        "cursorPosition" : "93,17",
+        "last_setup_crc32" : "",
+        "scrollLine" : "79"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

@@ -31,6 +31,10 @@
 #' N = 100, Rvec = Rvec, cvec = cvec, pi = pi,
 #' par = c('n', 'R', 'c', 'CR', 'AP'), option = c("optimal"), thres_CR = 0.05)
 #' }
+#' @seealso
+#' \code{\link{boptimal_cost}} for getting the optial test plan with minimum overall cost;
+#' \code{\link{bdata_generator}} for generating optimal test plans dataset;
+
 
 
 bdata_generator <- function(Cf, Cv, nvec, G, Cw, N, Rvec, cvec, pi,

@@ -7,13 +7,13 @@
     "folds" : "",
     "hash" : "0",
     "id" : "FE62B872",
-    "lastKnownWriteTime" : 1590791377,
-    "last_content_update" : 1590791377803,
+    "lastKnownWriteTime" : 1590802202,
+    "last_content_update" : 1590802202950,
     "path" : "G:/My Drive/Career_Development/Coding_Profiles/Github_Public/Rpackages/BRDT/R/boptimal_cost.R",
     "project_path" : "R/boptimal_cost.R",
     "properties" : {
-        "cursorPosition" : "24,0",
-        "scrollLine" : "10"
+        "cursorPosition" : "18,0",
+        "scrollLine" : "9"
     },
     "read_only" : false,
     "read_only_alternatives" : [
