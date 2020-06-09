@@ -22,6 +22,10 @@ library(BRDT)
 #view vignettes
 browseVignettes('BRDT')
 ```
+To install from [CRAN-Package BRDT](https://cran.r-project.org/web/packages/BRDT/index.html)
+```
+install.packages("BRDT")
+```
 ## Examples
 ```
 ######Binomial RDT Design######
