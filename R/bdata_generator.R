@@ -85,7 +85,7 @@ bdata_generator <- function(Cf, Cv, nvec, G, Cw, N, Rvec, cvec, pi,
   }
   #To get all test plans data for different combinations of n, c, R
   else if (option == c('optimal')){
-    #exapnd all possible combinations of n, c, R
+    #expand all possible combinations of n, c, R
     R_c_vecs <- expand.grid(Rvec, cvec)
     colnames(R_c_vecs) <- c('R', 'c')
 
