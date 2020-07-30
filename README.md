@@ -1,5 +1,5 @@
 # BRDT (Binomial Reliability Demonstration Tests)
-
+[![](https://cranlogs.r-pkg.org/badges/BRDT)](https://cran.r-project.org/package=BRDT)
 ## Description
 This package provides the Bayesian methods to get the optimal test sample size in binomial reliability demonstration tests design.
 * Conventional Binomial RDT: the package implements the conventional test design using failure count data and assuming binomial failure distributions over the testing period. Binomial RDT can also be referred to as binomial test or attribute test.
@@ -22,7 +22,7 @@ library(BRDT)
 #view vignettes
 browseVignettes('BRDT')
 ```
-To install from [CRAN-Package BRDT](https://cran.r-project.org/web/packages/BRDT/index.html)
+To install from [CRAN-Package BRDT](https://CRAN.R-project.org/package=BRDT)
 ```
 install.packages("BRDT")
 ```
